@@ -1,0 +1,5 @@
+{
+    "name": "live-exec",
+    "description": "child_process wrapper to exec command with live output to console",
+    "version": "0.0.1"
+}
