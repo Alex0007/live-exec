@@ -1,7 +1,7 @@
 {
     "name": "live-exec",
     "description": "child_process wrapper to exec command with live output to console",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {
         "type": "git",
         "url": "https://github.com/Alex0007/live-exec"
