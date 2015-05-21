@@ -1,9 +1,9 @@
-var extend = require('lodash/object/extend')
+var assign = Object.assign || require('object.assign')
 
 module.exports = function() {
 
     if (typeof arguments[1] === 'object') { // extend provided env with process.env
-        arguments[1].env = extend(arguments[1].env, process.env)
+        arguments[1].env = assign(process.env, arguments[1].env)
     }
 
     var child = require('child_process').exec.apply(null, arguments)
