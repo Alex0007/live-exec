@@ -1,10 +1,13 @@
 {
-    "name": "live-exec",
-    "description": "Node child_process.exec wrapper to exec command with live output to console",
-    "version": "0.0.5",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/Alex0007/live-exec.git"
-    },
-    "license": "MIT"
+  "name": "live-exec",
+  "description": "Node child_process.exec wrapper to exec command with live output to console",
+  "version": "0.0.6",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Alex0007/live-exec.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.9.1"
+  }
 }
