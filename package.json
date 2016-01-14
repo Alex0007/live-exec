@@ -1,7 +1,7 @@
 {
   "name": "live-exec",
   "description": "Node child_process.exec wrapper to exec command with live output to console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/Alex0007/live-exec.git"
